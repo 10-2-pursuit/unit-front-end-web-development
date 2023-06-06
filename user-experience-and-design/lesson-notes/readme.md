@@ -1,4 +1,4 @@
-# Introductory CSS
+# User Experience and Design
 
 ## Learning Objectives
 

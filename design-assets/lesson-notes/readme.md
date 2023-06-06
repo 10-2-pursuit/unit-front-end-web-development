@@ -1,4 +1,4 @@
-# App Polishing
+# Design Assets
 
 ## Learning Objectives
 
