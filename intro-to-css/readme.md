@@ -163,7 +163,7 @@ Here are some common properties to change
 
 #### Text color
 
-To change the text color, use `color
+To change the text color, use `color`
 
 ```css
 p {
@@ -173,7 +173,7 @@ p {
 
 #### Background color
 
-To change the background color, use `background-color.`
+To change the background color, use `background-color`.
 
 ```css
 p {
@@ -188,13 +188,20 @@ Beyond the 140 named HTML colors, there are several ways to choose from myriad c
 
 One of the most common ways to declare a color is using a hexadecimal color. Hexadecimal numbers go from 0 - 16, rather than from 0 to 9. To code 10-15 the letters a, b, c, d, e, and f are used.
 
-- Black's hex code is #000000 (or #000 for short).
-- White's hex code of #FFFFFF (or #FFF for short).
-- Reddest red's hex code is #FF00000, the first two positions the code represent how red something is.
-- Bluest blue's hex code is #0000FF, the last two positions represent how blue something is.
-- Greenest green's hex code is #00FF00, the middle two positions represent how green something is.
+- Black's hex code is `#000000` (or `#000` for short).
+- White's hex code of `#FFFFFF` (or #FFF for short).
+- Reddest red's hex code is `#FF0000`, the first two positions the code represent how red something is.
+- Bluest blue's hex code is `#0000FF`, the last two positions represent how blue something is.
+- Greenest green's hex code is `#00FF00`, the middle two positions represent how green something is.
 
-Another way you can set color is using RGB(A) (red, green, blue, alpha), which also let's you set a range of red, green, and blue. Additionally, this property let's you set an alpha value which will allow you to make things transparent.
+Another way you can set color is using RGB(A) (red, green, blue, alpha), which also let's you set a range of red, green, and blue. Additionally, this property let's you set an alpha value (between 0 and 1, where 0 is none and 1 is 100%) which will allow you to make things transparent.
+
+- Black's hex code is `rgb(0, 0, 0)`.
+- White's hex code of `rgb(255, 255, 255)`.
+- Reddest red's hex code is `rgb(255, 0, 0)`, the first two positions the code represent how red something is.
+- Bluest blue's hex code is `rgb(0, 0, 255)` the last two positions represent how blue something is.
+- Greenest green's hex code is `rgb(0, 255, 0)`, the middle two positions represent how green something is.
+- Black with 50% transparency is `rgba(0,0,0, .5)`
 
 #### Font family
 
@@ -208,11 +215,11 @@ p {
 }
 ```
 
-There are some built-in fonts. Like `serif`, a generic font with small decorations on the edges of the letters. Or sans-serif, which is a more minimalist font. Some other common ones are `cursive` and possibly `fantasy`. These built-in fonts can vary tremendously depending on the user's machine.
+There are some built-in fonts. Like `serif`, a generic font with small decorations on the edges of the letters. Or sans-serif, which is a more minimalist font. Some other common ones are `cursive` and possibly `fantasy` (depedning on the built-in fonts on your computer, Macs typically have `fantasy`). These built-in fonts can also vary tremendously depending on the user's machine.
 
 #### Font size
 
-Font sizes can be changed with the `font-size` property. There are two main ways to size fonts. One is with pixels `px`, and the other is with `em`, a relative size. `em` is more modern and can provide better consistency across browsers. Users will have a set default font-size (usually around 16px) in their browser. Whatever their default is, it will be what 1em is for them. Then 0.5em would be 8px, and 23m would be 32px.
+Font sizes can be changed with the `font-size` property. There are two main ways to size fonts. One is with pixels `px`, and the other is with `em`, a relative size. `em` is more modern and can provide better consistency across browsers, while px tends to feel more intutive to people. Users will have a set default font-size (usually around 16px) in their browser. Whatever their default is, it will be what 1em is for them. Then 0.5em would be 8px, and 23m would be 32px.
 
 ```css
 p {
@@ -263,12 +270,14 @@ A mnemonic device to remember the order is to say `1 solid gold bar` as the way 
 
 ### Lorem Ipsum
 
-When you build a website, you likely won't have all the text/content yet. But as you make the website, you want to ensure that your building looks good and the sizing is correct. You can include some placeholder text, usually called `lorem` or `lorem ipsum`. Within your text editor, you may notice if you start typing `lorem` into an HTML document, you can auto-complete it to fill an element with some lorem text.
+When you build a website, you likely won't have all the text/content yet. But as you make the website, you want to ensure that what you're building looks good and the sizing is correct. You can include some placeholder text, usually called `lorem` or `lorem ipsum`. Within your text editor, you may notice if you start typing `lorem` into an HTML document, you can auto-complete it to fill an element with some lorem text.
 
-You can also search for `lorem Ipsum generator, which will provide several websites that generate some placeholder text.
+You can also search for `lorem Ipsum generator`, which will provide several websites that generate some themed placeholder text.
 
 ### Learning as you go
 
-The basics of CSS are simple to learn. However, there are hundreds of properties! The best way to learn beyond the basics is to use a search engine and search for what you want to accomplish. Rules that you use regularly, you will naturally memorize. You will look up the rules you use infrequently as you need them, and that's fine!
+The basics of CSS are simple to learn. However, there are hundreds of properties! The best way to learn beyond the basics is to use a search engine and search for what you want to accomplish and look at code examples. You will continue to encounter new rules all the time and that's normal with coding. Learning from someone else's code is a key skill.
+
+Rules that you use regularly, you will naturally memorize. You will look up the rules you use infrequently as you need them, and that's fine!
 
 Additionally, while it is easy to add style to a page, adding style well and creating a responsive website is complicated and takes a lot of practice and time. Throughout the rest of this course, you will be building web pages and websites, granting you plenty of opportunities to practice and improve over time.

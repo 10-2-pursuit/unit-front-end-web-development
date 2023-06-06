@@ -105,34 +105,34 @@ sequence:
       points_possible: 100
   Complex Web Applications:
     - name: Application Planning
-      pursuit_path: application-planning
+      pursuit_path: app-planning
       kind: lesson
       activity: repository
     - name: User Experience & Design
       pursuit_path: user-experience-and-design
       kind: lesson
       activity: repository
-    - name: Request Response Cycle
-      pursuit_path: request-response-cycle
-      kind: lesson
-      activity: repository
-    - name: API Calls with Postman
-      pursuit_path: api-calls-with-postman
+    - name: Request Response Cycle & API Calls with Postman
+      pursuit_path: request-response-cycle-api-postman
       kind: lesson
       activity: repository
     - name: API Calls with Fetch & Promises
-      pursuit_path: api-calls-with-fetch
+      pursuit_path: api-calls-with-promises-and-fetch
       kind: lesson
       activity: repository
+      starter: api-calls-with-promises-and-fetch
     - name: Design Assets
       pursuit_path: design-assets
       kind: lesson
       activity: repository
-    - name: Front-end Portfolio Project
+    - name: Front-end Portfolio
       pursuit_path: front-end-portfolio
       kind: project
       activity: repository
-      points_possible: 100
+      points_possible: 80
+    - name: Front-end Portfolio Project Presentation
+      kind: project
+      points_possible: 20
     - name: End of Unit Reflection
       elements:
         - kind: deck

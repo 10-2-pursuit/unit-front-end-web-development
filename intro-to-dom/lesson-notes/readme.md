@@ -53,7 +53,7 @@ Begin by forking the following GitHub repository.
   <img
     class="animated"
     src="https://placedog.net/500/450"
-    alt="Image of Amber, the dog."
+    alt="Amber, the dog."
   />
   <h2>Amber</h2>
   <p>A sweet little doggo that belongs to my friend.</p>

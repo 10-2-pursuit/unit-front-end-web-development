@@ -2,7 +2,7 @@
 
 ## Learning Objectives
 
-By the end of this lesson you should be able to:
+By the end of this lesson, you should be able to:
 
 - Describe what CSS is and what it means that it cascades.
 - Differentiate between CSS rules, selectors, declarations, properties, and values.

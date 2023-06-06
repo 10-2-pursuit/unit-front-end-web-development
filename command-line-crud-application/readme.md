@@ -135,8 +135,8 @@ In the `helpers.js` file, create the same functionality from the previous lesson
 const { readFileSync, writeFileSync } = require("node:fs");
 
 function readJSONFile(path, fileName) {
-  const object = readFileSync(`${path}/${fileName}`, "utf8");
-  return object ? JSON.parse(object) : [];
+  const collection = readFileSync(`${path}/${fileName}`, "utf8");
+  return collection ? JSON.parse(collection) : [];
 }
 
 function writeJSONFile(path, fileName, data) {
